@@ -1,0 +1,6 @@
+# 28 May 2019
+
+```{r echo = FALSE}
+library(leaflet)
+leaflet() %>% addTiles() %>% addMarkers(lng=16.3658202, lat=48.2085942, popup="Hello!")
+```
